@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Need to report a claim? Guardian Adjustment Group can help you with each step of the process!" />
+<title>Report a Claim</title>
+<link rel="stylesheet" type="text/css" href="css/claim_layout.css"/>
+<!-- FONTS -->
+<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+
+<!-- JS -->
+
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="header">
+	<div id="left_head">
+    	<img src="images/full_logo.png" />
+    </div>
+</div>
+
+<div id="nav_container">
+	<ul id="nav">
+                
+        <li style="width:100px;"><a  href="index.html">Home</a></li>
+        <li style="width:110px;"><a  href="about.html">About</a></li>
+        <li style="width:120px;"><a  href="services.html">Services</a></li>
+        <li style="width:240px;"><a  href="testimon.html">Recent Claim Successes</a></li>
+        <li style="width:170px;"><a  href="claim.html">Report a Claim</a></li>
+        <li style="width:100px;"><a  href="faq.html">FAQ's</a></li>
+        <li style="width:120px;"><a  href="contact.html">Contact</a></li>
+                
+    </ul>
+</div>
+
+<div id="content_container">
+<h1>Report a Claim</h1>
+<h2>Here at Guardian Adjustment, we'll help you through the process.</h2>
+
+<form method="post" action="send_claim.php">
+
+	<legend>Personal Information:</legend>
+    <fieldset id="f1">
+    	<label title="--Submitting Claim As--">*I am submitting a claim as a(n): </label>
+    	<select required="required" title="--Submitting Claim As--" name="submit_as">
+             <option value="as">--Submitting Claim As--</option>
+        	<option value="witness">Witness</option>
+            <option value="claimant">Claimant</option>
+            <option value="agent">Agent</option>
+            <option value="insured">Insured</option>
+        </select><br />
+        <label title="policyNum">Policy Number: </label><input type="text" size="30" title="policyNum" />
+    </fieldset>
+    
+    <legend>Contact Information:</legend>
+    <fieldset id="f2">
+    	<label title="fname">*First Name: </label><input required="required" type="text" size="35" title="fname" /><br />
+        <label title="lname">*Last Name: </label><input required="required" type="text" size="35" title="lname" /><br />
+        <label title="street">*Street Address: </label><input required="required" type="text" size="50" title="street" /><br />
+        <label title="city">*City: </label><input required="required" type="text" size="40" title="city" /><br />
+        <label title="zip">*Zip Code: </label><input required="required" type="text" size="10" title="zip" /><br />
+        <label title="email">Email Address: </label><input type="url" size="40" title="email" /><br />
+        <label title="emailc">Confirm Email Address: </label><input type="url" size="40" title="emailc" />
+        <div class="form_header">*Phone Contacts:</div>
+        <fieldset id="f2_sub">
+        	<label title="home_phone">Home Phone: </label><input required="required" type="text" size="20" title="home_phone" /><br />
+            <label title="work_phone">Work Phone: </label><input type="text" size="20" title="work_phone" /><br />
+            <label title="cell_phone">Cell Phone: </label><input required="required" type="text" size="20" title="cell_phone" /><br />
+            <label title="alt_phone">Alternate Phone: </label><input type="text" size="20" title="alt_phone" /><br />
+        </fieldset>
+    </fieldset>
+    
+    <legend>Loss Information:</legend>
+    <fieldset id="f3">
+    	<label title="loss_date">*Loss Date: </label><input required="required" type="date" size="20" title="loss_date" />
+		<label title="loss_time">*Loss time: </label><input required="required" type="time" size="20" title="loss_time" /><br />
+        <label title="loss_desc">*Loss Description: </label><textarea required="required" style="width: 350px; height: 150px;" title="loss_desc"></textarea><br /><br />
+		Loss Location:<br />
+        <label title="loss_street">*Street Address: </label><input required="required" type="text" size="50" title="loss_street" /><br />
+        <label title="loss_city">*City: </label><input required="required" type="text" size="40" title="loss_city" /><br />
+        <label title="loss_zip">*Zip Code: </label><input required="required" type="text" size="10" title="loss_zip" /><br />
+    </fieldset>
+</form>
+</div><!--content container ends-->
+
+<div id="footer_container"><div id="footer_inner">
+	<div id="footer1">
+        <h6><br />Guardian Adjustment Group LLC</h6>
+        <p>Licensed and Bonded Public Adjusters in PA, NJ, and CT<br />
+           All property damage is our speciality! <br />
+           53 E Oakland Ave, Doylestown, PA 18901</p>
+    </div>
+    <div id="footer2">
+    <p>Call now!<br />215.345.1119</p>
+    <div class="fb-like-box" data-href="https://www.facebook.com/GuardianAdjustmentGroup" data-width="250" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="false" data-show-border="false"></div>
+    <img height="60" id="bbb_footer" src="images/BBB_Logo.png" />    
+    </div>
+</div></div>
+
+<div id="bottom"><p>2014 &copy; Guardian Adjustment Group LLC &brvbar; Doylestown, PA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+				 <p>Website by Justin Richard &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>
+
+</body>
+</html>
