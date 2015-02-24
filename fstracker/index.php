@@ -4,19 +4,6 @@ logged_in_redirect();
 include 'includes/head.php'; 
 ?>
 
-<!-- What to do 
-
-	1) Hours in Field Service
-    2) Placement Tracker
-    	Magazines, tracts, brochures, books, etc.
-    3) Return Visits
-    	Where, when, description, material covered, scheduled appt
-    4) Bible Studies
-    	Householder details, material covered previously, material planned for next visit, scheduled appt date and time
-    5) Other forms of Sacred Service
-    	RBC, HLC, Congregation responsibilities, etc.
-
--->
 
 <body>
 	<div id="intro">
