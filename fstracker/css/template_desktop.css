@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*GLOBAL*/
+body{
+	width: 100%;
+	background-color: #393636;
+	font-size: 22px;
+	color: #F5F3F3;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	}
+h1{
+	font-size:42px; 
+	text-align:center;
+	padding: 15px;
+	}
+h2{
+	margin-bottom: 25px;
+	padding: 10px;
+	font-size:26px; 
+	text-align:center;
+	text-decoration:underline;
+	}
+h3{
+	margin: 25px auto 15px auto;
+	padding: 10px;
+	font-size:30px; 
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-align:center;
+	}
+h4{
+	font-size:40px; 
+	text-align:center;
+	padding: 10px;
+	}
+input{
+	background-color:#838383;
+	border: solid 2px #000000;
+	border-radius: 2px;
+	width: 80px;
+	height: 25px;
+	font-size: 22px;
+	padding: 4px;
+	text-align:center;
+	}
+textarea{
+	background-color:#838383;
+	border: solid 2px #000000;
+	border-radius: 2px;
+	vertical-align: middle;
+	width: 90%;
+	height: 100px;
+	font-size: 16px;
+	padding: 4px;
+	margin-top: 10px;
+	}
+.fake-link{
+    color:#2499d7;
+    text-decoration: underline;
+    cursor: pointer;
+	}
+.view_button{
+	width: 50%;
+	height: 30px;
+	margin: 20px auto 0 auto;
+	background-color:#247BD7;
+	text-align: center;
+	font-size: 16px;
+	line-height: 30px;
+	border: solid 2px #233C41;
+	border-radius: 3px;
+	cursor: pointer;
+	}
+
+/*PAGE STYLES*/
+#logout{
+	width: 140px;
+	height: 80px;
+	background-color:#247BD7;
+	float: right;
+	margin: 30px 50px 0 0;
+	text-align: center;
+	font-size: 24px;
+	line-height: 80px;
+	border-radius: 3px;
+	cursor: pointer;
+	}
+#newInput_container{
+	width: 60%;
+	margin: 0 auto;
+	}
+#newInput{
+	width: 75%;
+	margin: 10px auto;
+	padding: 2%;
+	border: solid 2px #000000;
+	}
+#counter li{
+	float: left;
+	clear: left;
+	width: 100%;
+	padding-bottom: 1em;
+	}
+#counter label{
+	float:left;
+	width: 10em;
+	margin-right: 1em;
+	}
+#updates{
+	text-align:center;
+	font-size: 18px;
+	}
+#update_button{
+	width: 100%;
+	height: 50px;
+	background-color:#247BD7;
+	margin: 30px 50px 0 0;
+	text-align: center;
+	font-size: 24px;
+	line-height: 50px;
+	cursor: pointer;
+	}
+.stat_box_wrap{
+	width: 60%;
+	margin: 0 auto;
+	}
+.stat_box_wrap table{
+	width: 90%;
+	}
+.stat_box_wrap th, td{
+	text-align: left;
+	padding: 5px;
+	border-bottom: solid 1px #247BD7;
+	}
+.stat_box{
+	width: 75%;
+	margin: 2% auto 2% auto;
+	padding: 2%;
+	border: solid 2px #000000;
+	}
+.returnUpdate{
+	width: 30%;
+	margin: 0 auto;
+	border: solid 3px #247BD7;
+	}
+.selectAdd1{
+	width: 40%;
+	margin: 0 auto;
+	border: solid 3px #247BD7;
+	}
+.selectAdd2{
+	width: 40%;
+	margin: 0 auto;
+	border: solid 3px #247BD7;
+	}
+#errors{
+	width: 90%;
+	margin: 25px auto;
+	text-align:center;
+	}
+#addCall{
+	width: 60%;
+	margin: 10px auto;
+	padding: 2%;
+	border: solid 2px #000000;
+	}
+#addStudy{
+	width: 60%;
+	margin: 10px auto;
+	padding: 2%;
+	border: solid 2px #000000;
+	}
+#add li{
+	float: left;
+	clear: left;
+	width: 100%;
+	padding-bottom: 1em;
+	}
+#add label{
+	float:left;
+	width: 15em;
+	margin-right: 1em;
+	}
+#add input{
+	background-color:#838383;
+	border: solid 2px #000000;
+	border-radius: 2px;
+	width: 70%;
+	height: 25px;
+	font-size: 22px;
+	padding: 4px;
+	margin: 5px;
+	text-align:left;
+	}
+#add textarea{
+	background-color:#838383;
+	border: solid 2px #000000;
+	border-radius: 2px;
+	vertical-align: middle;
+	width: 70%;
+	height: 100px;
+	font-size: 16px;
+	padding: 4px;
+	margin: 5px;
+	}
+#callbook_container{
+	width: 90%;
+	margin: 25px auto;
+	text-align:center;
+	}

@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Providing our clients with the best level of service and attaining the best possible settlements from their Insurance carriers." />
+<title>Guardian Adjustment</title>
+<link rel="shortcut icon" href="ga.ico" />
+<link rel="stylesheet" type="text/css" href="css/index_layout.css"/>
+<!-- FONTS -->
+<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+
+<!-- JS -->
+<script type="text/javascript">
+
+var imagecount = 1;
+var total = 6; //total number of photos in slider
+
+function slide(x){
+	var Image = document.getElementById('img');
+	imagecount = imagecount + x;
+	if(imagecount > total){imagecount = 1;}
+	if(imagecount < 1){imagecount = total;}
+	Image.src = "images/index/img" + imagecount +".png";	
+	}
+	
+	window.setInterval(function slideStart(){	
+	var Image = document.getElementById('img');
+	imagecount = imagecount + 1;
+	if(imagecount > total){imagecount = 1;}
+	if(imagecount < 1){imagecount = total;}
+	Image.src = "images/index/img" + imagecount +".png";	
+	}, 6000);
+</script>
+</head>
+
+<body onload="slideStart()">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="header">
+	<div id="left_head">
+    	<img src="images/full_logo.png" />
+    </div>
+</div>
+
+<div id="nav_container">
+	<ul id="nav">
+                
+        <li style="width:100px;"><a  href="index.html">Home</a></li>
+        <li style="width:110px;"><a  href="about.html">About</a></li>
+        <li style="width:120px;"><a  href="services.html">Services</a></li>
+        <li style="width:240px;"><a  href="testimon.html">Recent Claim Successes</a></li>
+        <li style="width:170px;"><a  href="claim.html">Report a Claim</a></li>
+        <li style="width:100px;"><a  href="faq.html">FAQ's</a></li>
+        <li style="width:120px;"><a  href="contact.html">Contact</a></li>
+                
+    </ul>
+</div>
+
+<div id="content_container">
+	<div id="slider_container">
+    	<img id="img" src="images/index/img1.png" />
+        <div onmouseover="getElementById('left_arr').src='images/index/left_arrow_h.png'" 
+	   		 onmouseout="getElementById('left_arr').src='images/index/left_arrow.png'" id="left_holder"  onclick="slide(-1)">
+             <img id="left_arr" src="images/index/left_arrow.png" /></div>
+        <div onmouseover="getElementById('right_arr').src='images/index/right_arrow_h.png'" 
+	   		 onmouseout="getElementById('right_arr').src='images/index/right_arrow.png'" id="right_holder" onclick="slide(1)">
+             <img id="right_arr" src="images/index/right_arrow.png" /></div>
+    </div>
+    
+    <div id="intro">
+        
+        <div id="mid">
+        <h1>Welcome to Guardian Adjustment Group</h1>
+        <h2>&raquo; To excel in our professional arena, providing our clients with the best level of service, attaining the best possible settlements from their Insurance carriers, all while striving to maintain an honest, hardworking and humble reputation. &laquo;</h2>
+        </div>
+        
+    	<div id="intro_title">From your Guardians:</div>
+        <p>Guardian Adjustment Group, established in _____ _____, has over ___ years combined experience in residential and commercial construction, damage inspection, estimation, architectural design and business loss assessment. With this experience, as well as our education and licensing, we are able to provide the quality of service and best possible settlement, which you deserve. As a small company, we are able to provide our clientele with up-to-date communication and personal attention in order to make the hassle of an insurance loss, a breeze. Remember, We represent your interests and rights. We are your Guardians. </p>
+    </div>
+    
+    <div class="sidebar">
+    	<div class="sidebar_title">Facebook Updates</div>
+    	<div id="fb-root"></div> <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-post" data-href="https://www.facebook.com/video.php?v=694831357252659" data-width="450"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/video.php?v=694831357252659">Post</a> by <a href="https://www.facebook.com/GuardianAdjustmentGroup">Guardian Adjustment Group</a>.</div></div>
+
+    </div>
+    
+</div><!--content container ends-->
+
+<div id="footer_container"><div id="footer_inner">
+	<div id="footer1">
+        <h6><br />Guardian Adjustment Group LLC</h6>
+        <p>Licensed and Bonded Public Adjusters in PA, NJ, and CT<br />
+           All property damage is our speciality! <br />
+           53 E Oakland Ave, Doylestown, PA 18901</p>
+    </div>
+    <div id="footer2">
+    <p>Call now!<br />215.345.1119</p>
+    <div class="fb-like-box" data-href="https://www.facebook.com/GuardianAdjustmentGroup" data-width="250" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="false" data-show-border="false"></div>
+    <img height="60" id="bbb_footer" src="images/BBB_Logo.png" />
+    </div>
+</div></div>
+
+<div id="bottom"><p>2014 &copy; Guardian Adjustment Group LLC &brvbar; Doylestown, PA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+				 <p>Website by Justin Richard &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>
+
+</body>
+</html>
