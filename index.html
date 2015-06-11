@@ -1,99 +1,103 @@
-<!doctype html>
+<!doctype HTML>
 <html>
 <head>
 <meta charset="utf-8">
 <title>Justin Richard - Web Developer</title>
-<meta name="description" content="View Justin Richard's Online Portfolio. Here you can view his work, experience, and qualifications."
+<meta name="description" content="View Justin Richard's Online Portfolio. Here you can view his work, experience, and qualifications.">
 <!-- CSS -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" media="handheld, screen and (max-width:700px)" href="css/mobile.css">
 <link rel="stylesheet" media="handheld, screen and (min-width:701px) and (max-width:1000px)" href="css/tablet.css">
 <link rel="stylesheet" media="handheld, screen and (min-width:1001px)" href="css/desktop.css">
+
 <!-- FONTS -->
 <link href='http://fonts.googleapis.com/css?family=Istok+Web:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+
 <!-- JAVASCRIPT -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script type="text/javascript">
-/* Contact Button Hover Effect*/
-	function bgChange(a){
-			if(a == 1){
-				document.getElementById('contact_mobile').style.backgroundColor = '#62d576';
-				document.getElementById('contact_me').style.backgroundColor = '#62d576';
-				document.getElementById('contact_button').style.backgroundColor = '#62d576';
-			}
-			if(a == 2){
-				document.getElementById('contact_mobile').style.backgroundColor = '#3BCB55';
-				document.getElementById('contact_me').style.backgroundColor = '#3BCB55';
-				document.getElementById('contact_button').style.backgroundColor = '#3BCB55';
-			}
-		}
+/*Odds and Ends*/
+
+/*Sticky Nav Bar*/
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 1){
+            $('header').addClass("sticky");
+        }
+        else{
+            $('header').removeClass("sticky");
+        }
+    });
+
 </script>
+
 </head>
 
 <body>
 
+<header><p id="hp1"><a href="#">Justin Richard</a></p>
+    <p id="hp2"><a href="#bio_container">About</a> &nbsp;&nbsp; <a href="#portfolio">Work</a> &nbsp;&nbsp; <a href="#contact">Contact</a></p></header>
+
 <div id="intro">
-    <div id="welcome" class="animate_intro">
-    	<div id="top_margin"></div>
-		<div id="hello_mobile"><span id="hello">Hi, I'm Justin Richard.</span></div>
-        <h1><span style="background-color:#7A7A7A; padding: 0 5px 0 5px;">I design and build websites from &lt;html&gt; to &lt;/html&gt;</span></h1>
-        <div onMouseOver="bgChange(1)" onMouseOut="bgChange(2)" id="contact_mobile" class="animate_mobile"><a href="#contact"><span id="contact_me">Contact Me</span></a></div>
-        <a onMouseOver="bgChange(1)" onMouseOut="bgChange(2)" href="#contact"><img alt="Contact me for business opportunities" id="contact_button" src="images/contact_button.svg"></a>
-    </div> 
+    <div id="welcome">
+        <h1>I design and build websites from &lt;html&gt; to &lt;/html&gt;</h1>
+    </div>
 </div>
 
 <div id="current">
-	<h2>I'm currently earning an Associate's Degree in Software Development and looking for freelance web development opportunities.</h2>
+	<h2>I'm currently earning an Associate Degree in Software Development and looking for freelance web development opportunities.</h2>
 </div>
 
 <div id="bio_container">
-	<div id="bio_img"><img alt="Justin Richard Biography" width="100%" src="images/bio_pic.jpg"></div>
+	<div id="bio_img"><img alt="Justin Richard Biography" width="100%" src="images/bio_pic2.jpg"></div>
     <div id="bio">
 	<h3>A little bit about me...</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
-    <p>r adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Du</p>
+        <p>I'm Justin, a developer from California that loves all things web.  I love bringing client concepts to life using best practice front end development techniques.
+        My skill set currently includes <span style="color: #494949;">HTML5, CSS3, JavaScript, jQuery, Bootstrap, PHP,and MySQLi</span></p>
+        <p>As of May 2015, I graduated in software development.  Throughout my education I spent time learning practical web development skills, going to local Meetups, and talking with
+            experienced devs.</p>
+        <p>When I convince myself to take a break from working in PhpStorm or browsing r/webdev, I love to either go rock climbing or log on to whatever MMORPG my friends are
+            playing at the time.  Lately it's been Guild Wars 2.</p>
     </div>
     <div style="clear: both;"></div>
 </div>
 
 <div id="portfolio">
 	<h4>Some of the work I've done,</h4>
-    
-    <div class="project_container">
-        <div class="project_box">
-            <div class="project">
-            	<img id="p1" src="images/delval.png">                   
-            </div>
-        </div>
-        <div class="project_desc">
-        	<p>sed do eiusmod<br><br>
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
-        </div>
+
+    <div id="project_container">
+        <h5>Mobile Contact Footer – WordPress Plugin</h5>
+        <p><a target="_blank" href="http://justinrichardweb.com/downloads/mobile_contact_plugin.zip">Go To</a> (download link) <br>
+            An editable, fixed position div that sticks to the bottom of a web page on mobile devices.  Once activated, options can
+            be found in the 'Settings' menu in the backend of Wordpress.</p>
+        <h5>Field Service Tracker</h5>
+        <p><a target="_blank" href="http://fstracker.justinrichardweb.com/">Go To</a><br>
+            Field Service Tracker is a project to help Jehovah's Witnesses keep accurate record of activity in the ministry.  This was a personal project I used to learn PHP and MySQLi.</p>
+        <h5>My Portfolio (Wordpress)</h5>
+        <p><a target="_blank" href="http://justin.staging.tepia.co/">Go To</a> <br>
+            I took some time to learn more about the Wordpress platform and rebuild the website you're looking at.  I made use of custom widgets, custom post types, and other
+            powerful features Wordpress has to offer.</p>
+        <h5>Del Val Window Tint NJ</h5>
+        <p><a target="_blank" href="http://delvalwindowtintnj.com">Go To</a><br>
+            A static website made for a friend's company.  Developed to client's design specifications.</p>
+        <h5>Javascript Snake Game</h5>
+        <p><a target="_blank" href="http://snake.justinrichardweb.com/">Go To</a><br>
+            A personal project to practice using vanilla Javascript.  The game library used was inspired by a CodePen I once saw.</p>
     </div>
-    
-    <div class="project_container">
-        <div class="project_box">
-            <div class="project">
-            	<img id="p2" src="images/guardian.png">                   
-            </div>
-        </div>
-        <div class="project_desc">
-        	<p>sed do eiusmod<br><br>
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
-        </div>
+
+</div>
+
+<div id="contact">
+
+    <h6>Reach out to me via</h6>
+    <div id="icon_container">
+        <div class="icon"><p>GitHub</p><a target="_blank" href="https://github.com/ExpoExe"><img src="images/github/github-128-black.png"></a></div>
+        <div class="icon"><p>Gmail</p><a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=justinr.cibacs@gmail.com"><img src="images/gmail/gmail-128-black.png"></a></div>
+        <div class="icon"><p>LinkedIn</p><a target="_blank" href="https://www.linkedin.com/profile/view?id=385033066&trk"><img src="images/linkedin/linkedin-128-black.png"></a></div>
+        <div class="icon"><p>Skype</p><a target="_blank" href="skype:montypython098?userinfo"><img src="images/skype/skype-128-black.png"></a></div>
+        <div style="clear: both;"></div>
     </div>
-    
-    <div class="project_container">
-        <div class="project_box">
-            <div class="project">
-            	<img id="p1" src="images/delval.png">                   
-            </div>
-        </div>
-        <div class="project_desc">
-        	<p>sed do eiusmod<br><br>
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
-        </div>
-    </div>
-    
+
 </div>
 
 </body>

@@ -123,12 +123,12 @@ function check_date(){
 	//Convert query result to string			
 	$old_date = implode("-", $lastmodified);
 	//Trim to year-month-day
-	$old_date = substr($old_date, 0, 10);
+	$old_date = substr($old_date, 0, 9);
 	
 	//Get date at time of update as a string
 	$new_date = date("Y-m-d H:i:s O");
 	//Trim to year-month-day
-	$new_date = substr($new_date, 0, 10);
+	$new_date = substr($new_date, 0, 9);
 	
 	//Create arrays out of trimmed dates
 	$old_date = explode('-', $old_date);
