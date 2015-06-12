@@ -1,54 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a25b55a3-e139-4387-86da-94563eb18e39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ga_test/send_claim.php" />
-      <change type="DELETED" beforePath="K:\GitHub\Portfolio_Website\ga_test\images\Contact Icons.psd" afterPath="" />
-      <change type="DELETED" beforePath="K:\GitHub\Portfolio_Website\ga_test\images\Slider Images.psd" afterPath="" />
-      <change type="DELETED" beforePath="K:\GitHub\Portfolio_Website\ga_test\images\Swatches.psd" afterPath="" />
-      <change type="DELETED" beforePath="K:\GitHub\Portfolio_Website\ga_test\images\index\img6.png" afterPath="" />
-      <change type="DELETED" beforePath="K:\GitHub\Portfolio_Website\ga_test\images\slider_buttons.psd" afterPath="" />
-      <change type="DELETED" beforePath="K:\GitHub\Portfolio_Website\images\contact_button.svg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/background.jpg" afterPath="$PROJECT_DIR$/images/background.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/background_tablet.jpg" afterPath="$PROJECT_DIR$/images/background_tablet.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/about.html" afterPath="$PROJECT_DIR$/ga_test/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/css/about_layout.css" afterPath="$PROJECT_DIR$/ga_test/css/about_layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/claim.html" afterPath="$PROJECT_DIR$/ga_test/claim.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/css/claim_layout.css" afterPath="$PROJECT_DIR$/ga_test/css/claim_layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/contact.html" afterPath="$PROJECT_DIR$/ga_test/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/css/contact_layout.css" afterPath="$PROJECT_DIR$/ga_test/css/contact_layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/desktop.css" afterPath="$PROJECT_DIR$/css/desktop.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/css/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fstracker/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/fstracker/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fstracker/core/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/fstracker/core/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fstracker/core/database/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/fstracker/core/database/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fstracker/core/functions/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/fstracker/core/functions/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fstracker/css/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/fstracker/css/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fstracker/includes/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/fstracker/includes/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/ga_test/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/css/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/ga_test/css/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/images/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/ga_test/images/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/images/contact/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/ga_test/images/contact/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/images/index/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/ga_test/images/index/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/images/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minipiano/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/minipiano/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minipiano/css/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/minipiano/css/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minipiano/media/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/minipiano/media/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minipiano/scripts/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/minipiano/scripts/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/faq.html" afterPath="$PROJECT_DIR$/ga_test/faq.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/css/faq_layout.css" afterPath="$PROJECT_DIR$/ga_test/css/faq_layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    <list default="true" id="a25b55a3-e139-4387-86da-94563eb18e39" name="Default" comment="ga_test work">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/index.html" afterPath="$PROJECT_DIR$/ga_test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/css/index_layout.css" afterPath="$PROJECT_DIR$/ga_test/css/index_layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mobile.css" afterPath="$PROJECT_DIR$/css/mobile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/send_form_email.php" afterPath="$PROJECT_DIR$/ga_test/send_form_email.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/services.html" afterPath="$PROJECT_DIR$/ga_test/services.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/css/services_layout.css" afterPath="$PROJECT_DIR$/ga_test/css/services_layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tablet.css" afterPath="$PROJECT_DIR$/css/tablet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/testimon.html" afterPath="$PROJECT_DIR$/ga_test/testimon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ga_test/css/testimon_layout.css" afterPath="$PROJECT_DIR$/ga_test/css/testimon_layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fstracker/core/functions/users.php" afterPath="$PROJECT_DIR$/fstracker/core/functions/users.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Portfolio_Website.iws" />
@@ -87,8 +41,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ga_test/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28" vertical-offset="85" max-vertical-offset="2159">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state vertical-scroll-proportion="1.1170018" vertical-offset="1327" max-vertical-offset="2176">
+              <caret line="114" column="50" selection-start-line="114" selection-start-column="50" selection-end-line="114" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -97,6 +51,7 @@
                 <element signature="n#style#0;n#li#4;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#5;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#6;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -298,20 +253,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="8" width="1863" height="1047" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18777293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32969433" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958402" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12201886" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18865867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -361,6 +317,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="ga_test work" />
+    <option name="LAST_COMMIT_MESSAGE" value="ga_test work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -393,6 +351,7 @@
             <element signature="n#style#0;n#li#4;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#5;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#6;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -437,6 +396,7 @@
             <element signature="n#style#0;n#li#4;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#5;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#6;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -734,8 +694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ga_test/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28" vertical-offset="85" max-vertical-offset="2159">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state vertical-scroll-proportion="1.1170018" vertical-offset="1327" max-vertical-offset="2176">
+          <caret line="114" column="50" selection-start-line="114" selection-start-column="50" selection-end-line="114" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -744,6 +704,7 @@
             <element signature="n#style#0;n#li#4;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#5;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#6;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
