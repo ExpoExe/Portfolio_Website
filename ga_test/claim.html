@@ -16,7 +16,7 @@
 
 <body>
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
+<script type="javascript">(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
@@ -26,20 +26,20 @@
 
 <div id="header">
 	<div id="left_head">
-    	<img src="images/full_logo.png" />
+    	<img alt="Guardian Adjustment Group Logo" src="images/full_logo.png" />
     </div>
 </div>
 
 <div id="nav_container">
 	<ul id="nav">
-                
-        <li style="width:100px;"><a  href="index.html">Home</a></li>
-        <li style="width:110px;"><a  href="about.html">About</a></li>
-        <li style="width:120px;"><a  href="services.html">Services</a></li>
-        <li style="width:240px;"><a  href="testimon.html">Recent Claim Successes</a></li>
-        <li style="width:170px;"><a  href="claim.html">Report a Claim</a></li>
-        <li style="width:100px;"><a  href="faq.html">FAQ's</a></li>
-        <li style="width:120px;"><a  href="contact.html">Contact</a></li>
+
+        <li style="width:80px;"><a  href="index.html">HOME</a></li>
+        <li style="width:110px;"><a  href="about.html">ABOUT US</a></li>
+        <li style="width:150px;"><a  href="services.html">OUR SERVICES</a></li>
+        <li style="width:250px;"><a  href="testimon.html">RECENT CLAIM SUCCESSES</a></li>
+        <li style="width:170px;"><a  href="claim.html">REPORT A CLAIM</a></li>
+        <li style="width:70px;"><a  href="faq.html">FAQ</a></li>
+        <li style="width:130px;"><a  href="contact.html">CONTACT US</a></li>
                 
     </ul>
 </div>
@@ -50,54 +50,54 @@
 
 <form method="post" action="send_claim.php">
 
-	<legend>Personal Information:</legend>
-    <fieldset id="f1">
-    	<label title="--Submitting Claim As--">*I am submitting a claim as a(n): </label>
-    	<select required="required" title="--Submitting Claim As--" name="submit_as">
-             <option value="as">--Submitting Claim As--</option>
-        	<option value="witness">Witness</option>
-            <option value="claimant">Claimant</option>
-            <option value="agent">Agent</option>
-            <option value="insured">Insured</option>
-        </select><br />
-        <label title="policyNum">Policy Number: </label><input type="text" size="30" title="policyNum" />
-    </fieldset>
-    
-    <legend>Contact Information:</legend>
-    <fieldset id="f2">
-    	<label title="fname">*First Name: </label><input required="required" type="text" size="35" title="fname" /><br />
-        <label title="lname">*Last Name: </label><input required="required" type="text" size="35" title="lname" /><br />
-        <label title="street">*Street Address: </label><input required="required" type="text" size="50" title="street" /><br />
-        <label title="city">*City: </label><input required="required" type="text" size="40" title="city" /><br />
-        <label title="zip">*Zip Code: </label><input required="required" type="text" size="10" title="zip" /><br />
-        <label title="email">Email Address: </label><input type="url" size="40" title="email" /><br />
-        <label title="emailc">Confirm Email Address: </label><input type="url" size="40" title="emailc" />
-        <div class="form_header">*Phone Contacts:</div>
-        <fieldset id="f2_sub">
-        	<label title="home_phone">Home Phone: </label><input required="required" type="text" size="20" title="home_phone" /><br />
-            <label title="work_phone">Work Phone: </label><input type="text" size="20" title="work_phone" /><br />
-            <label title="cell_phone">Cell Phone: </label><input required="required" type="text" size="20" title="cell_phone" /><br />
-            <label title="alt_phone">Alternate Phone: </label><input type="text" size="20" title="alt_phone" /><br />
-        </fieldset>
-    </fieldset>
-    
-    <legend>Loss Information:</legend>
-    <fieldset id="f3">
-    	<label title="loss_date">*Loss Date: </label><input required="required" type="date" size="20" title="loss_date" />
-		<label title="loss_time">*Loss time: </label><input required="required" type="time" size="20" title="loss_time" /><br />
-        <label title="loss_desc">*Loss Description: </label><textarea required="required" style="width: 350px; height: 150px;" title="loss_desc"></textarea><br /><br />
-		Loss Location:<br />
-        <label title="loss_street">*Street Address: </label><input required="required" type="text" size="50" title="loss_street" /><br />
-        <label title="loss_city">*City: </label><input required="required" type="text" size="40" title="loss_city" /><br />
-        <label title="loss_zip">*Zip Code: </label><input required="required" type="text" size="10" title="loss_zip" /><br />
-    </fieldset>
+    <legend><h3>Contact Information:</h3></legend>
+    <fieldset id="f2"><ul>
+    	<li><label title="fname">First Name: </label></li>
+            <li><input title="fname" type="text" size="35" name="fname" /></li>
+        <li><label title="lname">Last Name: </label></li>
+            <li><input title="lname" type="text" size="35" name="lname" /></li>
+        <li><label title="street">Street Address: </label></li>
+            <li><input title="street" type="text" size="40" name="street" /></li>
+        <li><label title="city">City: </label></li>
+            <li><input title="city" type="text" size="40" name="city" /></li>
+        <li><label title="zip">Zip Code: </label></li>
+            <li><input title="zip" type="text" size="10" name="zip" /></li>
+        <li><label title="email">Email Address: </label></li>
+            <li><input title="email" size="40" name="email" /></li>
+        <li><label title="emailc">Confirm Email Address: </label></li>
+            <li><input title="emailc" size="40" name="emailc" /></li>
+        <div class="form_header"><h3>Phone Contacts:</h3></div>
+        <fieldset id="f2_sub"><ul>
+            <li><label title="home_phone">Home Phone: </label></li>
+                <li><input title="home_phone" type="text" size="20" name="home_phone" /></li>
+            <li><label title="work_phone">Work Phone: </label></li>
+                <li><input title="work_phone" type="text" size="20" name="work_phone" /></li>
+            <li><label title="cell_phone">Cell Phone: </label></li>
+                <li><input title="cell_phone" type="text" size="20" name="cell_phone" /></li>
+            <li><label title="alt_phone">Alternate Phone: </label></li>
+                <li><input title="alt_phone" type="text" size="20" name="alt_phone" /></li>
+        </ul></fieldset>
+    </ul></fieldset>
+
+    <legend><h3>Loss Information:</h3></legend>
+    <fieldset id="f3"><ul>
+    	<li><label title="loss_date">Loss Date: </label></li>
+            <li><input title="loss_date"  type="date" size="20" name="loss_date" /></li>
+        <li><label title="loss_desc">Loss Description: </label></li>
+            <li><textarea title="loss_desc" style="width: 350px; height: 150px;" name="loss_desc"></textarea></li><br />
+    </ul></fieldset>
+
+    <br>
+    <div style="text-align: center;"><input id="submit" type="submit" value="Submit Your Claim"></div>
+
 </form>
+
 </div><!--content container ends-->
 
 <div id="footer_container"><div id="footer_inner">
 	<div id="footer1">
         <h6><br />Guardian Adjustment Group LLC</h6>
-        <p>Licensed and Bonded Public Adjusters in PA, NJ, and CT<br />
+        <p>Licensed and Bonded Public Adjusters in PA, NJ, CT, and DE<br />
            All property damage is our speciality! <br />
            53 E Oakland Ave, Doylestown, PA 18901</p>
     </div>
@@ -108,8 +108,7 @@
     </div>
 </div></div>
 
-<div id="bottom"><p>2014 &copy; Guardian Adjustment Group LLC &brvbar; Doylestown, PA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-				 <p>Website by Justin Richard &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>
+<div id="bottom"><p><script>document.write(new Date().getFullYear());</script> &copy; Guardian Adjustment Group LLC &brvbar; Doylestown, PA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
 </body>
 </html>

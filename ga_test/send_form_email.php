@@ -15,7 +15,7 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "montypython890@gmail.com";
+    $email_to = "jtruelove@guardianadjustment.com";
  
     $email_subject = "Guardian Adjustment Group Online Contact Request";
  
@@ -127,7 +127,7 @@ if(isset($_POST['email'])) {
  
     $email_message .= "Email: ".clean_string($email_from)."\n";
  
-    $email_message .= "Telephone: Not Provided".clean_string($telephone)."\n";
+    $email_message .= "Telephone: ".clean_string($telephone)."\n";
  
     $email_message .= "Comments: ".clean_string($comments)."\n";
  
